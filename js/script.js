@@ -5,7 +5,7 @@ function makeTriangle()
 {
 //Declaration of an array that will contain the 3 values
   var triangle =[sideA,sideB,sideC]
-  triangle[0]=parseInt(document.getElementById("sideA").value);
+  riangle[0]=parseInt(document.getElementById("sideA").value);
   triangle[1]=parseInt(document.getElementById("sideB").value);
   triangle[2]=parseInt(document.getElementById("sideC").value);
 
