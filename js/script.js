@@ -14,16 +14,17 @@ function makeTriangle()
        alert("Sides A, B, C make a Triangle");
     if( triangle[0]=== triangle[1] &&  triangle[1]=== triangle[2] &&  triangle[2]=== triangle[0])
          {
-           
+
             alert("The triangle is an EQUILATERAL Triangle");        }
     else if(( triangle[0] ===  triangle[1])||( triangle[1] ===  triangle[2])||( triangle[2] ===  triangle[0]))
       {
         alert("The triangle is an ISOSCELE Triangle");
       }
-//        else 
-//         {
-//           alert("The triangle is an SCALENE Triangle");
-//         }
+       else 
+      {
+        
+        alert("The triangle is an SCALENE Triangle");
+      }
 //        }
 //     else
 //     {
