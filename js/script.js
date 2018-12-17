@@ -25,9 +25,9 @@ function makeTriangle()
         
         alert("The triangle is an SCALENE Triangle");
       }
-//        }
-//     else
-//     {
-//       alert("Sides A, B and C cannot make triangle"); 
-//     }
-// };
+    }
+       else
+     {
+     alert("Sides A, B and C cannot make triangle"); 
+      }
+ };
