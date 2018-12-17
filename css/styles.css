@@ -1,6 +1,11 @@
 #container{
   background-color: rgb(173, 198, 219);  
   text-align: center;
+  width:60%;
+  font-family: Impact;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
   
  
