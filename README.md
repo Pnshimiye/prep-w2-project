@@ -1,4 +1,4 @@
-# Triangle tracker Application
+# Triangle tracking Application
 
 ## Description
 
