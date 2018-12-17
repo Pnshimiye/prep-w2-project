@@ -47,14 +47,19 @@ text-align: justify;
     font-size: 15px;
   }
   h1,h2,h3{
-    background-color: rgb(41, 49, 56);
-    color: white;
+    background-color: rgb(143, 186, 221);
+    color: black;
     width:300px;    
     margin-left: auto;
     margin-right: auto;
     border-radius:2px;
-    border: 1px solid rgb(105, 158, 202);
+    border: 1px solid rgb(183, 208, 228);
     box-shadow: 1px 1px 1px 1px inset;
 
-}
-  
+  }
+  #footer>p{
+    font-size: 15px;
+    margin-bottom: 3px;
+    margin-top: 25px;
+    font-weight:500;
+  }
