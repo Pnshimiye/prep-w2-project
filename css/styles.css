@@ -14,7 +14,7 @@
   margin-right: auto;
   border-radius: 5px;
   border: 2px solid rgb(35, 41, 46);
-  box-shadow: 3px 3px 3px 3px rgb(143, 186, 221)inset;
+  box-shadow: 3px 3px 3px 3px black inset;
   padding: 10px;
   margin-bottom: Auto;
   margin-top:auto;
@@ -36,14 +36,14 @@ h1{
 }
  
 body{
- background-color: rgb(41, 49, 56);
+ background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/4CTg6oQagilwda206/blue-numbers-of-different-sizes-fast-moving-vertically-on-black-background_4wdidtitg__F0000.png");
 }
 
-ol{
-text-align: justify;
-}
+ ol{
+  text-align: justify;
+ }
 
- button{
+  button{
    float:right;
    margin-right:80px;
    margin-left:-100px;

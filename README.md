@@ -11,17 +11,9 @@ For this projet I will make a small application that will detect  if numbers ent
 
 ## Functionality
 
-|                  __Behaviour__                                                                |    ___Input__    |    ___output__      |
-|-----------------------------------------------------------------------------------------------|------------------|---------------------|
-|If the sum of any two sides of the triangle is equal to or less than the third remaining side, |  9, 4, 3         |Cannot make  triangle|  
-|then a triangle CANNOT be formed using those values.                                           |                  |                     |                                    |-----------------------------------------------------------------------------------------------|------------------|---------------------|                                    | For an equilateral triangle, all sides must be equal.                                         |  3, 3, 3         | Equilateral triangle| 
-|-----------------------------------------------------------------------------------------------|------------------|---------------------|
-| For an isosceles triangle, two sides are exactly equal.                                       |  3 ,3, 4         | Isoceles Triangle   |           
-|-----------------------------------------------------------------------------------------------|------------------|---------------------|
-|For a scalene triangle, none of the sides is equal. However,                                   |  3, 5, 6         | Scalene Triangle    |
-| the sum of any two sides of the triangle must be greater than the third side.                 |                  |                     |
-|-----------------------------------------------------------------------------------------------|------------------|---------------------|
-
+|                  __Behaviour__                                                                                                    |    ___Input__    |    ___output__      |
+|---------------------------------------------------------------------------------------------------------------------------------- |------------------|---------------------|
+|If the sum of any two sides of the triangle is equal to or less than the third side,a triangle CANNOT be formed using those values.|  9, 4, 3         |Cannot make  triangle||For an equilateral triangle, all sides must be equal.                                                                              |  3, 3, 3         | Equilateral triangle||For an isosceles triangle, two sides are exactly equal.                                                                            |  3 ,3, 4         | Isoceles Triangle   ||For a scalene triangle, none of the sides is equal. However, the sum of any two sides must be greater than the third side.         |  3, 5, 6         | Scalene Triangle    |
 
 
  ## Setup Instructions
@@ -39,7 +31,7 @@ If you wish o give any contribution to my project, or anything else, I can be re
 
 ## Licence
 
-his project is licensed under the MIT License.
+This project is licensed under the MIT License.
 
 Copyright @ 2018
  
