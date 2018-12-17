@@ -12,9 +12,9 @@ function makeTriangle()
     if(( triangle[0]+ triangle[1])> triangle[2] && ( triangle[1] +  triangle[2])> triangle[0] && ( triangle[0] +  triangle[2])> triangle[1])
     {
        alert("Sides A, B, C make a Triangle");
-//        if( triangle[0]=== triangle[1] &&  triangle[1]=== triangle[2] &&  triangle[2]=== triangle[0])
-//        {
-//        alert("The triangle is an EQUILATERAL Triangle");
+    if( triangle[0]=== triangle[1] &&  triangle[1]=== triangle[2] &&  triangle[2]=== triangle[0])
+         {
+            alert("The triangle is an EQUILATERAL Triangle");
 //        }
 //        else if(( triangle[0] ===  triangle[1])||( triangle[1] ===  triangle[2])||( triangle[2] ===  triangle[0]))
 //        {
@@ -30,4 +30,3 @@ function makeTriangle()
 //       alert("Sides A, B and C cannot make triangle"); 
 //     }
 // };
-</p>
