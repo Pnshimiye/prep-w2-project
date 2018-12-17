@@ -26,7 +26,9 @@ function makeTriangle()
         alert("The triangle is an SCALENE Triangle");
       }
     }
-       else
+     
+    // This is the end of the condition for a triangle and its nested conditions for each type of triangle
+    else
      {
      alert("Sides A, B and C cannot make triangle"); 
       }
