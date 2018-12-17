@@ -18,7 +18,7 @@ function makeTriangle()
             alert("The triangle is an EQUILATERAL Triangle");        }
     else if(( triangle[0] ===  triangle[1])||( triangle[1] ===  triangle[2])||( triangle[2] ===  triangle[0]))
       {
-        alert("The triangle is an ISOSCELE Triangle");
+        alert("The triangle is an ISOCELES Triangle");
       }
        else 
       {
@@ -32,4 +32,4 @@ function makeTriangle()
      {
      alert("Sides A, B and C cannot make triangle"); 
       }
- };
+ }; 

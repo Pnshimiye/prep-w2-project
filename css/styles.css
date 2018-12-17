@@ -14,10 +14,25 @@
   margin-right: auto;
   border-radius: 5px;
   border: 2px solid rgb(35, 41, 46);
-  box-shadow: 2px 2px 2px 2px inset;
+  box-shadow: 3px 3px 3px 3px rgb(143, 186, 221)inset;
   padding: 10px;
   margin-bottom: Auto;
   margin-top:auto;
+}
+
+h1,h2,h3{
+  background-color: rgb(143, 186, 221);
+  color: black;
+  width:300px;    
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:2px;
+  border: 1px solid rgb(183, 208, 228);
+  box-shadow: 1px 1px 1px 1px inset;
+  font-weight: 500;
+}
+h1{
+  font-weight: 700;
 }
  
 body{
@@ -27,17 +42,18 @@ body{
 ol{
 text-align: justify;
 }
+
  button{
    float:right;
    margin-right:80px;
-   margin-left: 40px;
+   margin-left:-100px;
  }
   input{
     height:27px;
     width:150px;
-    box-shadow:68px  rgb(41, 49, 56);;
+    box-shadow: 1px 1px  rgb(143, 186, 221) inset;
+    border: 2px solid rgb(26, 37, 46);    
   }
-
  
   button{
     height:35px;
@@ -45,18 +61,8 @@ text-align: justify;
     background-color:rgb(41, 49, 56);
     color: rgb(143, 186, 221);
     font-size: 15px;
-  }
-  h1,h2,h3{
-    background-color: rgb(143, 186, 221);
-    color: black;
-    width:300px;    
-    margin-left: auto;
-    margin-right: auto;
-    border-radius:2px;
-    border: 1px solid rgb(183, 208, 228);
-    box-shadow: 1px 1px 1px 1px inset;
+  }   
 
-  }
   #footer>p{
     font-size: 15px;
     margin-bottom: 3px;

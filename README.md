@@ -1,8 +1,13 @@
 # Triangle tracker Application
 
+## Description
 
 For this projet I will make a small application that will detect  if numbers entered by the user make a triangle,
- and if they do, what type of triangle they make
+ and if they do, what type of triangle they make.
+
+ ## Author
+
+ Done by Pauline Nshimiye a student at Moringa School
 
 ## Functionality
 
@@ -29,9 +34,15 @@ Text Editor: Visual Studio Code
 Language: Javascript
 Slyled and Marked up with CSS, HTML and Markdown 
 
+## Contact
+If you wish o give any contribution to my project, or anything else, I can be reached on Github https://github.com/Pnshimiye, or on Facebook:https://www.facebook.com/pauline.nshimiye
 
+## Licence
+
+his project is licensed under the MIT License.
+
+Copyright @ 2018
  
- ## Author
- Done by Pauline Nshimiye a student at Moringa School
+
 
  
