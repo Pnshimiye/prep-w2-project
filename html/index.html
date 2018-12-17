@@ -4,31 +4,38 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Trinagle Tracker</title>
+  <title>Triangle Tracker</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css" />
   <script src="../js/script.js"></script>
 </head>
 <body>
     <div id="container" >
-    <h1>Triangle Tracker</h1>
-    <p>This program is going to allow to enter three figures in the boxes below for it to detect whether those figures can make a triangle,and  if they do make a trianglr  which triangle that would be.</p>
+      <h1>Triangle Tracker</h1>
+      <p>This program is going to allow to enter three figures in the boxes below for it to detect whether those figures can make a triangle,and  if they do make a triangle  which triangle that would be.</p>
+      <p>Let us talk a little bbit out triangles:</p>
+      <h3>What makes a triangle?</h3>
+      <p>A triangle is made of three ligns each of which is given a length by a given number. When the addition of two sides length is less or equal to the third line's length a trianlge cannot be made </p>
+      <h3>An equilateral Triangle</h3>
+      <p>You will git an equilateral triangle if all the sides/lines length are equal.</p>
+      <h3>An Isocele triangle</h3>
+      <p>An isocele triangle is made of three sides, two of which are equal</p>
+      <h3>A scalene triangle is a triangle which fulfills the conditions for a trianglem but of which no side is eaual to the other.</h3>
+      <h2>Instructions</h2>
     
-
-    <h2>Instructions</h2>
-    
-    <p>-Input three digits in the <stron>(side)</stron>boxes</p>
-    <p>-Click the botton<strong>"check triangle"</strong> botton to see if the numbers make up a triagle. you should see a message popping up on top of the window</p>
-    <p>-If the message confirms that the numbers can make a triangle,  in the pop-up message click <strong>OK</strong>to see what type of triangle the numbers make</p>
-     
+    <ol>
+      <li>Input three digits in the <stron>(side)</stron>boxes</li>
+      <li>Click the botton<strong>"check triangle"</strong> botton to see if the numbers make up a triangle. you should see a message popping up on top of the window</li>
+      <li>If the message confirms that the numbers can make a triangle,  in the pop-up message click <strong>OK</strong> to see what type of triangle the numbers make</li>
+    </ol>
     <div class="input">
-       Side A <input type="number" id="sideA"><br><br>
-       Side B <input type="number" id="sideB"><br><br>
-       Side C <input type="number" id="sideC"><br><br>
-    </div>
+       Side A <input type="number" id="sideA">
+       Side B <input type="number" id="sideB">
+       Side C <input type="number" id="sideC">
+  
      <button onclick="makeTriangle()">Check Triangle</button>
     
-  
+     </div>
 </body>
 </html> 
  
