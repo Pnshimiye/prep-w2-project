@@ -5,14 +5,15 @@
 }
 
 #container{
-  background-color: rgb(173, 198, 219);  
+  background-color: rgb(143, 186, 221);  
   text-align: center;
   width:60%;
   font-family: Impact;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
+  border:3px whitesmoke;
   padding: 10px;
   margin-bottom: Auto;
   margin-top:auto;
@@ -20,12 +21,25 @@
  
 body{
  background-color: rgb(41, 49, 56);
+}
 
 ol{
 text-align: justify;
 }
  button{
    float:right;
+   margin-right:80px;
+   margin-left: 40px;
  }
-  
-
+  input{
+    height:27px;
+    width:150px;
+    box-shadow:68px rgb(143, 186, 221);
+  }
+  button{
+    height:35px;
+    width:150px;
+    background-color:rgb(41, 49, 56);
+    color: rgb(143, 186, 221);
+    font-size: 15px;
+  }
